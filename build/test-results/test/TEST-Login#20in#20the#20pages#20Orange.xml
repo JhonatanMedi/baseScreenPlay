@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login in the pages Orange" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-06T23:44:24" hostname="LAPTOP-QFD4VE3I" time="54.405">
+<testsuite name="Login in the pages Orange" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-21T22:33:20" hostname="LAPTOP-QFD4VE3I" time="41.811">
   <properties/>
-  <testcase name="sucess full login" classname="Login in the pages Orange" time="54.405"/>
+  <testcase name="sucess full login" classname="Login in the pages Orange" time="41.811"/>
   <system-out><![CDATA[
 Scenario: sucess full login          ?[90m# src/test/resources/features/Login.feature:3?[0m
   ?[32mGiven ?[0m?[32mthe user access on the pages?[0m ?[90m# com.orange.stepDefinitions.LoginStepDefinitions.accessPages()?[0m
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 3004
+  <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48102
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1678146270.822][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-mar. 06, 2023 6:44:31 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 108
+jun. 21, 2023 5:33:25 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 114
+jun. 21, 2023 5:33:25 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
